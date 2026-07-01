@@ -8,13 +8,13 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark-900">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(245,197,66,0.08)_0%,_transparent_70%)]" />
 
-      <div className="absolute inset-0">
+      <div className="z-3 absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-dark-900/40 via-dark-900/20 to-dark-900" />
         <div
-          className="w-full h-full bg-cover bg-center"
+          className="w-full h-full bg-cover bg-center "
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?q=80&w=2070&auto=format&fit=crop)",
+              "url('/images/dg-bg.webp')",
           }}
         />
       </div>
@@ -51,8 +51,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          From concept to curtain call — we produce extraordinary event experiences
-          that captivate audiences and elevate brands.
+          Our expertise and technology will amplify your event success!
         </motion.p>
 
         <motion.div

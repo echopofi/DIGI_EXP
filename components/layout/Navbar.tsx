@@ -35,7 +35,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-dark-900/95 backdrop-blur-md shadow-lg shadow-black/20"
+          ? "bg-dark-200/95 backdrop-blur-md shadow-lg shadow-black/20"
           : isHome
             ? "bg-transparent"
             : "bg-dark-900/80 backdrop-blur-sm"
@@ -44,12 +44,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-2xl font-bold tracking-tight text-white">
-              DIGI<span className="text-gold-500">.</span>
-            </span>
-            <span className="hidden sm:block text-sm text-zinc-400 font-light tracking-widest uppercase">
-              Expressions
-            </span>
+            <img src="./images/dg-transparent.png" alt="Logo" className="h-12 w-auto" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">
