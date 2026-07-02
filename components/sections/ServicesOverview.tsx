@@ -8,6 +8,7 @@ export default function ServicesOverview() {
   return (
     <section className="py-24 bg-dark-900">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -36,10 +37,18 @@ export default function ServicesOverview() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Link
+              
                 href={service.href}
-                className="group block p-8 rounded-2xl bg-dark-800/50 border border-white/5 hover:border-gold-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-gold-500/5 hover:-translate-y-1"
+                className="group block p-8 rounded-2xl bg-zinc-800 border border-white/5 hover:border-gold-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-gold-500/5 hover:-translate-y-1"
               >
-                <span className="text-4xl block mb-5">{service.icon}</span>
+                {service.image && (
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-auto mb-5 rounded-lg"
+                  />
+                )}
+                <span className="text-4xl block mb-5"></span>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-gold-500 transition-colors">
                   {service.title}
                 </h3>
