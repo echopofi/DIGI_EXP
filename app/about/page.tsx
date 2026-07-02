@@ -25,6 +25,7 @@ export default function AboutPage() {
       <PageHero
         title="About DIGI Expressions"
         subtitle="We're a team of producers, engineers, and creatives united by one mission: delivering extraordinary event experiences."
+        image="/images/soundcheck2.webp"
       />
 
       <section className="py-24 bg-dark-800">
@@ -63,7 +64,7 @@ export default function AboutPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/video2.jpeg)",
                 }}
               />
             </motion.div>
@@ -71,8 +72,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24 bg-dark-900">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <section className="py-24 relative overflow-hidden bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/chat-about2.png')" }}
+      >
+        <div className="absolute inset-0 bg-dark-900/80" />
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

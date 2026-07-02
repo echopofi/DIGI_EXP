@@ -6,11 +6,18 @@ interface PageHeroProps {
   title: string;
   subtitle?: string;
   className?: string;
+  image?: string;
 }
 
-export default function PageHero({ title, subtitle, className = "" }: PageHeroProps) {
+export default function PageHero({ title, subtitle, className = "", image }: PageHeroProps) {
   return (
     <section className={`relative min-h-[50vh] flex items-center justify-center bg-dark-900 overflow-hidden ${className}`}>
+      {image && (
+        <div
+          className="z-0 absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${image})` }}
+        />
+      )}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-dark-900" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(245,197,66,0.06)_0%,_transparent_70%)]" />
 
@@ -33,7 +40,7 @@ export default function PageHero({ title, subtitle, className = "" }: PageHeroPr
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed"
+            className="text-lg sm:text-xl text-zinc-100 max-w-2xl mx-auto leading-relaxed"
           >
             {subtitle}
           </motion.p>

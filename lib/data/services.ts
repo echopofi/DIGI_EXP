@@ -72,7 +72,7 @@ export const services: Service[] = [
       "Safety inspections & certification",
     ],
     href: "/services/it-rigging",
-    image: "/images/gpt-it.png"
+    image: "/images/henry2.png"
   },
   {
     id: "rental",
