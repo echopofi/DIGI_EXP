@@ -9,6 +9,12 @@ const quickLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+
+const socialLinks = [
+  { label: "facebook", href: "https://facebook.com/digiexpressionsMEDIAandARTS"},
+  { label: "instagram", href: "https://www.instagram.com/digiexpressions"},
+  { label: "youtube", href: "https://www.youtube.com/@DIGIexpressions"}
+]
 const serviceLinks = [
   { label: "Audio & Sound", href: "/services/audio" },
   { label: "Video & AV", href: "/services/video" },
@@ -25,9 +31,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
-              <span className="text-2xl font-bold tracking-tight text-white">
-                DIGI<span className="text-gold-500">.</span>
-              </span>
+              
+              <img src="./images/dg-transparent.png" alt="Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-6">
               Premium event production company delivering complete technical solutions for corporate events, concerts, trade shows, and more.
