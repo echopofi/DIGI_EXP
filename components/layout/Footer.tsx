@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -11,10 +12,10 @@ const quickLinks = [
 
 
 const socialLinks = [
-  { label: "facebook", href: "https://facebook.com/digiexpressionsMEDIAandARTS"},
-  { label: "instagram", href: "https://www.instagram.com/digiexpressions"},
-  { label: "youtube", href: "https://www.youtube.com/@DIGIexpressions"}
-]
+  { label: "facebook", href: "https://facebook.com/digiexpressionsMEDIAandARTS", icon: <FaFacebook size={18} /> },
+  { label: "instagram", href: "https://www.instagram.com/digiexpressions", icon: <FaInstagram size={18} /> },
+  { label: "youtube", href: "https://www.youtube.com/@DIGIexpressions", icon: <FaYoutube size={18} /> }
+];
 const serviceLinks = [
   { label: "Audio & Sound", href: "/services/audio" },
   { label: "Video & AV", href: "/services/video" },
@@ -35,17 +36,19 @@ export default function Footer() {
               <img src="./images/dg-transparent.png" alt="Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-6">
-              Premium event production company delivering complete technical solutions for corporate events, concerts, trade shows, and more.
+              Social Handles
             </p>
             <div className="flex gap-4">
-              {["facebook", "instagram", "linkedin", "youtube"].map((social) => (
+              {socialLinks.map((social) => (
                 <a
-                  key={social}
-                  href="#"
+                  key={social.label}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-zinc-400 hover:bg-gold-500 hover:text-dark-900 transition-all duration-300"
-                  aria-label={social}
+                  aria-label={social.label}
                 >
-                  <span className="text-xs font-bold uppercase tracking-wider">{social[0]}</span>
+                  {social.icon}
                 </a>
               ))}
             </div>
