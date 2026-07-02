@@ -39,7 +39,7 @@ export default function ServicesOverview() {
               <Link
               
                 href={service.href}
-                className="group block p-8 rounded-2xl bg-zinc-800 border border-white/5 hover:border-gold-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-gold-500/5 hover:-translate-y-1"
+                className="group block p-8 rounded-2xl border-4 border-white/5 hover:border-gold-500/30 transition-all duration-500 hover:shadow-xl hover:shadow-gold-500/5 hover:-translate-y-1"
               >
                 {service.image && (
                   <img
