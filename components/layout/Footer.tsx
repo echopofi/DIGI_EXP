@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaYoutube, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa"
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -87,24 +87,25 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white font-semibold mb-4 tracking-wide">Contact</h4>
+            <h4 className="text-white font-semibold mb-4 tracking-wide">Contact Us</h4>
             <ul className="space-y-3 text-zinc-400 text-sm">
-              <li>123 Production Way</li>
-              <li>Suite 200</li>
-              <li>Los Angeles, CA 90028</li>
-              <li className="pt-2">
-                <a href="tel:+15551234567" className="hover:text-gold-500 transition-colors">
-                  (555) 123-4567
-                </a>
+              <li className="flex items-center gap-2">
+                <FaMapMarkerAlt className="text-gold-500 mt-1 shrink-0"/>
+                Miri Drive, Behind Bethel International Christian Academy,
+                Gold & Base, Rayfield, Jos, Plateau State </li>
+              <li className="flex items-center gap-2">
+                <FaPhone className="text-gold-500 mt-1 shrink-0"/>
+                0803 512 5177 | 0904 330 2516
               </li>
-              <li>
-                <a href="mailto:info@digiexpressions.com" className="hover:text-gold-500 transition-colors">
-                  info@digiexpressions.com
-                </a>
+              <li className="flex items-center gap-2">
+                <FaEnvelope className="text-gold-500 mt-1 shrink-0"/>
+                digiexpressions@hotmail.com,
+                digiexpressions@yahoo.com
               </li>
             </ul>
           </div>
         </div>
+           
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-zinc-500 text-xs">
