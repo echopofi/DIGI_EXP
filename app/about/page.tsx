@@ -4,12 +4,14 @@ import PageHero from "@/components/ui/PageHero";
 import { motion } from "framer-motion";
 
 const team = [
-  { name: "Alex Chen", role: "Founder & CEO", bio: "Visionary leader with 20+ years in event production." },
-  { name: "Maria Santos", role: "Director of Operations", bio: "Ensures every event runs flawlessly from start to finish." },
-  { name: "James Kowalski", role: "Technical Director", bio: "Master of audio, video, and lighting systems design." },
-  { name: "Sarah Park", role: "Creative Director", bio: "Award-winning designer behind our most ambitious productions." },
-  { name: "David Okafor", role: "Head of Rigging", bio: "Safety-first engineer specializing in complex structural designs." },
-  { name: "Rachel Torres", role: "Client Relations", bio: "Dedicated to making every client feel heard and supported." },
+  { name: "Miriam Yepwi", role: "CEO", image: "/team" },
+  { name: "Engr. Emmanuel Atna Yepwi", role: "Director of Operations", image: "/team/" },
+  { name: "Simon Shagba Emmanuel", role: "Technical Director", image: "/team/simon-technical.jpeg" },
+  { name: "Shedrach Effiong", role: "Creative Director", image: "/team/shedrach-creative.jpeg" },
+  { name: "Judah Godfrey", role: "Head of Rigging", image: "/team/judah-rigging-head.jpeg" },
+  { name: "Judah Sunwar", role: "Lights Technician", image: "team/judah-lightening.jpeg" },
+  { name: "Nanpon Ernest", role: "Audio Technician", image: "team/" },
+  { name: "Danan Jason", role: "Head of Logistics", image: "team/" },
 ];
 
 const stats = [
@@ -39,18 +41,13 @@ export default function AboutPage() {
             >
               <p className="text-gold-500 text-sm font-medium tracking-[0.2em] uppercase mb-4">Our Story</p>
               <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-6">
-                Built on a Passion for Live Events
+                Event Solutions
               </h2>
               <div className="space-y-4 text-zinc-400 leading-relaxed">
                 <p>
-                  DIGI Expressions was founded with a simple belief: every event deserves to be extraordinary. What started as a small audio rental operation has grown into a full-service production company serving clients across the country.
+                  Digi Expressions is known for its event production services across the country and is a specialist in large, high profile venue settings. We have sound, video,  lights, LED screens and staging inventory available to produce events of all sizes and capabilities and are able to create a custom presentation system for your key audience. Our equipment rental and design services join only the latest audio visual and IT resources and are equipped to supply your event with a complete, turn-key solution. We are set apart from other event solutions providers in that we bring professional talent who builds an event experience. Our rental staging and design teams throughout the nation collaborate to deliver high-end equipment and ensure your guests are engaged and entertained. We simplify the planning process and bring the most skilled and industry certified production engineers and technicians to your project, whether your event duration is one day or one month. With our depth of expertise, we can offer services above and beyond others, including: multi-point video conferencing, webcasting, litigation support, video mapping, staging, scenic design, and online event registration
                 </p>
-                <p>
-                  Our growth has been driven by a relentless commitment to quality. We invest in the best technology, hire the most talented people, and approach every project with the same energy and attention to detail — whether it's a 50-person corporate meeting or a 50,000-person concert.
-                </p>
-                <p>
-                  Today, we're proud to be one of the most trusted names in event production, known for our technical expertise, creative innovation, and the ability to deliver under pressure.
-                </p>
+                
               </div>
             </motion.div>
             <motion.div
@@ -84,8 +81,8 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <p className="text-gold-500 text-sm font-medium tracking-[0.2em] uppercase mb-4">By the Numbers</p>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">Our Impact</h2>
+            <p className="text-gold-500 text-sm font-medium tracking-[0.2em] uppercase mb-4">Experienced Support Staff</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">Our highly trained technicians are your event advantage </h2>
           </motion.div>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -129,12 +126,12 @@ export default function AboutPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="group p-8 rounded-2xl bg-dark-900/50 border border-white/5 hover:border-gold-500/30 transition-all duration-500"
               >
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-gold-500/20 to-gold-600/20 flex items-center justify-center mb-5 text-2xl font-bold text-gold-500">
-                  {member.name.split(" ").map((n) => n[0]).join("")}
+                <div className="w-20 h-20 rounded-full overflow-hidden mb-5 border-2 border-gold-500/30">
+                  <img src={member.image} alt={member.name} className="w-full h-full object-cover" 
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1">{member.name}</h3>
                 <p className="text-gold-500 text-sm font-medium mb-3">{member.role}</p>
-                <p className="text-zinc-400 text-sm leading-relaxed">{member.bio}</p>
               </motion.div>
             ))}
           </div>

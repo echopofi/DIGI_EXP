@@ -11,6 +11,7 @@ export default function ServicesPage() {
       <PageHero
         title="Our Services"
         subtitle="Comprehensive event production solutions — from audio and lighting to full-scale technical production."
+        image="/images/serve.webp"
       />
 
       <section className="py-24 bg-dark-800">
