@@ -14,11 +14,11 @@ export default function PageHero({ title, subtitle, className = "", image }: Pag
     <section className={`relative min-h-[50vh] flex items-center justify-center bg-dark-900 overflow-hidden ${className}`}>
       {image && (
         <div
-          className="z-0 absolute inset-0 bg-cover bg-center"
+          className="z-0 absolute inset-0 bg-cover bg-center brightness-[0.4]"
           style={{ backgroundImage: `url(${image})` }}
         />
       )}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-dark-900" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/100 via-transparent to-dark-900" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(245,197,66,0.06)_0%,_transparent_70%)]" />
 
       <motion.div

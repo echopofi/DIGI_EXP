@@ -10,7 +10,7 @@ export default function ServicesPage() {
     <>
       <PageHero
         title="Our Services"
-        subtitle="Comprehensive event production solutions — from audio and lighting to full-scale technical production."
+        subtitle="Digi Expressions is known for its event production services across the country and is a specialist in large, high profile venue settings. We have sound, video,  lights, LED screens and staging inventory available to produce events of all sizes and capabilities and are able to create a custom presentation system for your key audience. Our equipment rental and design services join only the latest audio visual and IT resources and are equipped to supply your event with a complete, turn-key solution. We are set apart from other event solutions providers in that we bring professional talent who builds an event experience. Our rental staging and design teams throughout the nation collaborate to deliver high-end equipment and ensure your guests are engaged and entertained. We simplify the planning process and bring the most skilled and industry certified production engineers and technicians to your project, whether your event duration is one day or one month. With our depth of expertise, we can offer services above and beyond others, including: multi-point video conferencing, webcasting, litigation support, video mapping, staging, scenic design, and online event registration"
         image="/images/serve.webp"
       />
 
@@ -32,7 +32,7 @@ export default function ServicesPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/657551391_18135236527522132_4050183051312568486_n.webp)",
                 }}
               />
             </div>
