@@ -104,7 +104,7 @@ export default function AboutPage() {
       </section>
 
       <section className="py-24 bg-dark-800">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="group p-8 rounded-2xl bg-dark-900/50 border border-white/5 hover:border-gold-500/30 transition-all duration-500"
               >
-                <div className="w-20 h-20 rounded-full overflow-hidden mb-5 border-2 border-gold-500/30">
+                <div className="w-50 h-90 rounded-2xl overflow-hidden mb-5 border-2 border-gold-500/30">
                   <img src={member.image} alt={member.name} className="w-full h-full object-cover" 
                   />
                 </div>
