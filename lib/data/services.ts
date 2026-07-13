@@ -87,7 +87,7 @@ export const services: Service[] = [
       "Backline instruments & accessories",
       "Delivery, setup & technical support",
     ],
-    href: "/services",
+    href: "/services/rental",
     image: "/images/stage-rental.webp"
   },
   {
