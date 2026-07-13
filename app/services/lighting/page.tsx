@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 import { services } from "@/lib/data/services";
 
 const features = [
-  "Intelligent lighting (Martin, Chauvet, Ayrton)",
+  "Intelligent lighting",
   "LED wash & effect lighting",
   "Truss systems & staging structures",
   "Scenic design & set construction",
-  "Atmospheric effects (haze, fog, confetti)",
-  "Lighting control consoles (MA, Hog, Chamsys)",
+  "Atmospheric effects (haze, fog, smoke)",
+  "Lighting control consoles",
 ];
 
 export default function LightingPage() {
@@ -63,7 +63,7 @@ export default function LightingPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/chat-about.png)",
                 }}
               />
             </motion.div>
