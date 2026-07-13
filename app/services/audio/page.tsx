@@ -7,11 +7,12 @@ import { services } from "@/lib/data/services";
 
 const features = [
   "Line array & point source PA systems",
-  "Digital mixing consoles (Yamaha, DiGiCo, Allen & Heath)",
-  "Wireless microphone systems (Shure, Sennheiser)",
+  "Wireless microphone systems",
   "In-ear monitoring systems",
   "Acoustic optimization & room tuning",
-  "Live recording & broadcast audio",
+  "Live recording & online streaming",
+  "Live musical instruments",
+  "Audio recording studio"
 ];
 
 export default function AudioPage() {
@@ -63,7 +64,7 @@ export default function AudioPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/654589817_18113533933709715_6061999596940690275_n.webp)",
                 }}
               />
             </motion.div>
