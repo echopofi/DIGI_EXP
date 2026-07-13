@@ -63,7 +63,7 @@ export default function VideoPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/videography.jpg)",
                 }}
               />
             </motion.div>
