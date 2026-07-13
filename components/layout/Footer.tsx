@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2 mb-4">
               
-              <img src="./images/dg-transparent.png" alt="Logo" className="h-12 w-auto" />
+              <img src="/images/dg-transparent.png" alt="Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-6">
               Social Handles
