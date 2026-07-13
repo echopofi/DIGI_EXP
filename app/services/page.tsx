@@ -60,12 +60,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-
-      <CTABanner
-        headline="Ready to Bring Your Event to Life?"
-        buttonText="Get a Quote"
-        buttonHref="/contact"
-      />
     </>
   );
 }
