@@ -11,7 +11,6 @@ const features = [
   "Power distribution & backup systems",
   "Technical staffing & on-site support",
   "Show control & automation systems",
-  "Safety inspections & certification",
 ];
 
 export default function ITRiggingPage() {
@@ -63,7 +62,7 @@ export default function ITRiggingPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/657349383_18258816184292265_3659487352096974725_n.webp)",
                 }}
               />
             </motion.div>
