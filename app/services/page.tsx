@@ -38,13 +38,13 @@ export default function ServicesPage() {
             </div>
             <div className="order-1 lg:order-2">
               <p className="text-gold-500 text-sm font-medium tracking-[0.2em] uppercase mb-4">
-                End-to-End Production
+                Professional sound Reinforcement
               </p>
               <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-6">
-                One Partner. Complete Coverage.
+                Let transform your sound so your event resonates
               </h2>
               <p className="text-zinc-400 leading-relaxed mb-6">
-                Unlike working with separate vendors for audio, video, lighting, and staging, DIGI Expressions provides a unified production experience. Our integrated approach means fewer coordination headaches, consistent quality across all elements, and a single point of accountability.
+                We have capabilities for large venues but serve small sounds systems as well. If your amphitheater becomes inoperative, we will be there to bring a full concert quality resource for complete live event reinforcement and support. If your personal sound system simply needs a boost, we are able to supplement that as well. Let us show you how to achieve sound reinforcement with an array of audio systems that bring an immersive sound experience, supply equal dispersion of frequency and balanced productions.
               </p>
               <p className="text-zinc-400 leading-relaxed mb-8">
                 From initial consultation and design through load-in, show execution, and strike, we manage every detail so you can focus on your audience and your message.
