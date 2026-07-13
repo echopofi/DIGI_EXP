@@ -67,7 +67,7 @@ export default function RentalPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/658086711_18113564929664894_8713297414420528774_n.jpg)",
                 }}
               />
             </motion.div>
