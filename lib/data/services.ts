@@ -103,7 +103,7 @@ export const services: Service[] = [
       "Rehearsal & show flow planning",
       "On-site production management",
     ],
-    href: "/services",
+    href: "/services/event-consulting",
     image: "/images/consulting.jpg"
   },
 ];

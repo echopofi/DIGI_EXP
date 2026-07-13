@@ -3,7 +3,7 @@
 import PageHero from "@/components/ui/PageHero";
 import { services } from "@/lib/data/services";
 import ServiceCard from "@/components/ui/ServiceCard";
-import CTABanner from "@/components/ui/CTABanner";
+
 
 export default function ServicesPage() {
   return (
