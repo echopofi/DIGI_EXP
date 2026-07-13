@@ -68,7 +68,7 @@ export default function EventConsultingPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop)",
+                    "url(/images/670226020_18392410018156191_791792568550018360_n.webp)",
                 }}
               />
             </motion.div>
