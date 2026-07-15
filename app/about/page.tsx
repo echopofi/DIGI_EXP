@@ -4,8 +4,8 @@ import PageHero from "@/components/ui/PageHero";
 import { motion } from "framer-motion";
 
 const team = [
-  { name: "Miriam Yepwi", role: "CEO", image: "/team/CEO.jpg.jpeg" },
   { name: "Engr. Emmanuel Atna Yepwi", role: "Director of Operations", image: "/team/dop.jpeg" },
+  { name: "Miriam Yepwi", role: "CEO", image: "/team/CEO.jpg.jpeg" },
   { name: "Simon Shagba Emmanuel", role: "Technical Director", image: "/team/simon-technical.jpeg" },
   { name: "Shedrach Effiong", role: "Creative Director", image: "/team/shedrach-creative.jpeg" },
   { name: "Nanpon Ernest", role: "Head of Rigging", image: "/team/judah-rigging-head.jpeg" },

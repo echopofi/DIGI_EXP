@@ -20,9 +20,9 @@ const serviceLinks = [
   { label: "Audio & Sound", href: "/services/audio" },
   { label: "Video & AV", href: "/services/video" },
   { label: "Lighting & Staging", href: "/services/lighting" },
-  { label: "IT & Rigging", href: "/services/it-rigging" },
-  { label: "Equipment Rental", href: "/services" },
-  { label: "Event Consulting", href: "/services" },
+  { label: "Equipment Rental", href: "/services/rental" },
+  { label: "Event Consulting", href: "/services/event-consulting" },
+  { label: "Live Studio", href: "/services/live-studio" }
 ];
 
 export default function Footer() {
