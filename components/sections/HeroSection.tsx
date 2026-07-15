@@ -51,7 +51,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          Our expertise and technology will amplify your event success!
+          Our expertise and technology amplifies your event success!
         </motion.p>
 
         <motion.div
