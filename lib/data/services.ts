@@ -106,4 +106,20 @@ export const services: Service[] = [
     href: "/services/event-consulting",
     image: "/images/consulting.jpg"
   },
+  {
+    id: "live-studio",
+    title: "Live Recording/Rehearsal Studio",
+    shortDescription: "Top-quality live production and rehearsal environment.",
+    description:"COMING SOON !!!", 
+    features: [
+      "Professional multi-camera setups",
+      "Real-time streaming & broadcasting",
+      "Studio lighting & backdrop systems",
+      "Live switching & post-production",
+      "Remote guest integration",
+      "On-site technical support",
+    ],
+    href: "/services/live-studio",
+    image: "/images/studiopp.webp"
+  },
 ];
