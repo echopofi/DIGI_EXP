@@ -8,10 +8,9 @@ const team = [
   { name: "Engr. Emmanuel Atna Yepwi", role: "Director of Operations", image: "/team/dop.jpeg" },
   { name: "Simon Shagba Emmanuel", role: "Technical Director", image: "/team/simon-technical.jpeg" },
   { name: "Shedrach Effiong", role: "Creative Director", image: "/team/shedrach-creative.jpeg" },
-  { name: "Judah Godfrey", role: "Head of Rigging", image: "/team/judah-rigging-head.jpeg" },
+  { name: "Nanpon Ernest", role: "Head of Rigging", image: "/team/judah-rigging-head.jpeg" },
   { name: "Judah Sunwar", role: "Lights Technician", image: "team/judah-lightening.jpeg" },
-  { name: "Nanpon Ernest", role: "Audio Technician", image: "team/" },
-  { name: "Danan Jason", role: "Head of Logistics", image: "team/" },
+  { name: "Danan Jason", role: "Head of Logistics", image: "team/danan (2).jpg.jpeg" },
 ];
 
 const stats = [
