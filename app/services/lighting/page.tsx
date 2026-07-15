@@ -8,10 +8,14 @@ import { services } from "@/lib/data/services";
 const features = [
   "Intelligent lighting",
   "LED wash & effect lighting",
-  "Truss systems & staging structures",
+  "Truss systems, staging & rigging",
   "Scenic design & set construction",
   "Atmospheric effects (haze, fog, smoke)",
   "Lighting control consoles",
+  "Network design & WiFi deployment",
+  "Technical staffing & on-site support",
+  "Show control & automation systems",
+  "Safety inspections",
 ];
 
 export default function LightingPage() {
@@ -63,7 +67,7 @@ export default function LightingPage() {
                 className="w-full h-full bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url(/images/chat-about.png)",
+                    "url(/newImages/stage-light.jpeg)",
                 }}
               />
             </motion.div>

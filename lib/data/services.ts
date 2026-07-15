@@ -45,34 +45,23 @@ export const services: Service[] = [
   {
     id: "lighting",
     title: "Lighting & Staging",
-    shortDescription: "Dramatic lighting design that transforms spaces and sets moods.",
-    description: "Lighting is the soul of any event. Our designers craft immersive lighting environments using the latest LED technology, intelligent fixtures, and scenic elements that turn your vision into reality.",
+    shortDescription: "Complete lighting, staging, and technical infrastructure for safe, seamless productions.",
+    description: "Lighting is the soul of any event. Our designers craft immersive lighting environments using the latest LED technology, intelligent fixtures, and scenic elements that turn your vision into reality. Combined with our technical infrastructure expertise — from rigging and power distribution to networking and show control — we deliver a complete, safe, and seamless production.",
     features: [
       "Intelligent lighting (Martin, Chauvet, Ayrton)",
       "LED wash & effect lighting",
-      "Truss systems & staging structures",
+      "Truss systems, staging & rigging engineering",
       "Scenic design & set construction",
       "Atmospheric effects (haze, fog, confetti)",
       "Lighting control consoles (MA, Hog, Chamsys)",
-    ],
-    href: "/services/lighting",
-    image: "/images/lights1.jpg"
-  },
-  {
-    id: "it-rigging",
-    title: "IT & Rigging",
-    shortDescription: "Technical infrastructure and rigging for safe, seamless productions.",
-    description: "Behind every flawless event is a robust technical backbone. Our IT and rigging specialists handle the critical infrastructure — from networking to structural safety — ensuring your event runs without a hitch.",
-    features: [
       "Network design & WiFi deployment",
-      "Rigging & truss engineering",
       "Power distribution & backup systems",
       "Technical staffing & on-site support",
       "Show control & automation systems",
       "Safety inspections & certification",
     ],
-    href: "/services/it-rigging",
-    image: "/images/henry2.png"
+    href: "/services/lighting",
+    image: "/images/lights1.jpg"
   },
   {
     id: "rental",
@@ -120,6 +109,6 @@ export const services: Service[] = [
       "On-site technical support",
     ],
     href: "/services/live-studio",
-    image: "/images/studiopp.webp"
+    image: "/newImages/studio-img.jpeg"
   },
 ];
