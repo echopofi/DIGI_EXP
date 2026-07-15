@@ -109,6 +109,6 @@ export const services: Service[] = [
       "On-site technical support",
     ],
     href: "/services/live-studio",
-    image: "/newImages/studio-img.jpeg"
+    image: "/newImages/studio-img-crop.jpeg"
   },
 ];
