@@ -1,6 +1,6 @@
 # DIGI_EXP
 
-DIGI_EXP is a modern digital solutions platform currently under development. The goal is to provide DIGI Expressions with a clean, professional online presence while showcasing modern frontend architecture and scalable application design.
+DIGI_EXP is a modern webpage currently under development. The goal is to provide DIGI Expressions with a clean, professional online presence while showcasing modern frontend architecture and scalable application design.
 
 ## 🚧 Project Status
 
