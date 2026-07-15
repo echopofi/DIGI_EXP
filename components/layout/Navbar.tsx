@@ -61,12 +61,7 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              className="px-6 py-2.5 text-sm font-semibold tracking-wide text-dark-900 bg-gold-500 rounded-full hover:bg-gold-400 transition-all duration-300 hover:shadow-lg hover:shadow-gold-500/25"
-            >
-              Get a Quote
-            </Link>
+            
           </div>
 
           <button
@@ -114,12 +109,7 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="/contact"
-                className="mt-2 px-6 py-3 text-center text-sm font-semibold text-dark-900 bg-gold-500 rounded-full hover:bg-gold-400 transition-colors"
-              >
-                Get a Quote
-              </Link>
+              
             </div>
           </motion.div>
         )}
